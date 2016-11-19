@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!-- Beispiele
+Roman Kluth
+-->
+<!DOCTYPE fahrzeugdatenbank SYSTEM "oldsmobil.dtd">
+
+<fahrzeugdatenbank>
+	<!-- Fahrzeug 1-->
+	<fahrzeug>
+                <vorbesitzer></vorbesitzer>
+		<modellbezeichnung>R8</modellbezeichnung>
+		<seriennummer>123789</seriennummer>
+		<farbe>Rot</farbe>
+		<produktionsdatum>
+			<tag>01</tag>
+			<monat>06</monat>
+			<jahr>2012</jahr>
+		</produktionsdatum>
+		<anmerkung><![CDATA[
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+eu, pretium quis, sem.]]></anmerkung>
+		<motor>
+			<zylinderanzahl>12</zylinderanzahl>
+			<brennstoffart>Diesel</brennstoffart>
+			<hubraum>5800</hubraum>
+		</motor>
+		<ausstattungsliste>
+			<ausstattungsoption>
+				<bezeichnung>20 Zoll Felgen</bezeichnung>
+				<anzahl>4</anzahl>
+				<einzelpreis>600</einzelpreis>
+			</ausstattungsoption>
+			<ausstattungsoption>
+				<bezeichnung>Ledersitze</bezeichnung>
+				<anzahl>4</anzahl>
+				<einzelpreis>1200</einzelpreis>
+			</ausstattungsoption>
+		</ausstattungsliste>
+	</fahrzeug>
+	<!-- Fahrzeug 2-->
+	<fahrzeug>
+                <vorbesitzer></vorbesitzer>
+		<modellbezeichnung>Prius</modellbezeichnung>
+		<seriennummer>654987</seriennummer>
+		<farbe>Blau</farbe>
+		<produktionsdatum>
+			<tag>20</tag>
+			<monat>12</monat>
+			<jahr>2006</jahr>
+		</produktionsdatum>
+		<anmerkung><![CDATA[
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+eu, pretium quis, sem.]]></anmerkung>
+		<motor>
+			<zylinderanzahl>6</zylinderanzahl>
+			<brennstoffart>Benzin</brennstoffart>
+			<hubraum>3500</hubraum>
+		</motor>
+		<ausstattungsliste>
+			<ausstattungsoption>
+				<bezeichnung>Winterreifen</bezeichnung>
+				<anzahl>5</anzahl>
+				<einzelpreis>50</einzelpreis>
+			</ausstattungsoption>
+		</ausstattungsliste>
+	</fahrzeug>
+	<!-- Fahrzeug 3 -->
+	<fahrzeug>
+                <vorbesitzer>2</vorbesitzer>
+		<modellbezeichnung>Golf</modellbezeichnung>
+		<seriennummer>21436587</seriennummer>
+		<farbe>Schwarz</farbe>
+		<produktionsdatum>
+			<tag>08</tag>
+			<monat>01</monat>
+			<jahr>1964</jahr>
+		</produktionsdatum>
+		<anmerkung><![CDATA[
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+eu, pretium quis, sem.]]></anmerkung>
+		<motor>
+			<zylinderanzahl>6</zylinderanzahl>
+			<brennstoffart>Benzin</brennstoffart>
+			<hubraum>1200</hubraum>
+		</motor>
+		<ausstattungsliste>
+			<ausstattungsoption>
+				<bezeichnung>Winterreifen</bezeichnung>
+				<anzahl>4</anzahl>
+				<einzelpreis>45</einzelpreis>
+			</ausstattungsoption>
+			<ausstattungsoption>
+				<bezeichnung>Felgen</bezeichnung>
+				<anzahl>4</anzahl>
+				<einzelpreis>60</einzelpreis>
+			</ausstattungsoption>
+		</ausstattungsliste>
+	</fahrzeug>
+</fahrzeugdatenbank>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE fahrzeugdatenbank SYSTEM "fahrzeugdatenbank.dtd">
+<fahrzeugdatenbank>
+    <fahrzeug hersteller="" vorbesitzer="" modellbezeichnung="R8"
+        seriennummer="123789" farbe="Rot">
+        <produktionsdatum tag="01" monat="06" jahr="2012"/>
+        <anmerkung>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+eu, pretium quis, sem.</anmerkung>
+        <motor zylinderanzahl="12" brennstoffart="Diesel" hubraum="5800"/>
+        <ausstattungsliste>
+            <ausstattungsoption bezeichnung="Ledersitze" anzahl="4" einzelpreis="1200"/>
+            <ausstattungsoption bezeichnung="20 Zoll Felgen" anzahl="4" einzelpreis="600"/>
+        </ausstattungsliste>
+    </fahrzeug>
+    <fahrzeug hersteller="" vorbesitzer="" modellbezeichnung="Prius"
+        seriennummer="654987" farbe="Blau">
+        <produktionsdatum tag="20" monat="12" jahr="2006"/>
+        <anmerkung>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+eu, pretium quis, sem.</anmerkung>
+        <motor zylinderanzahl="6" brennstoffart="Benzin" hubraum="3500"/>
+        <ausstattungsliste>
+            <ausstattungsoption bezeichnung="Winterreifen" anzahl="5" einzelpreis="50"/>
+        </ausstattungsliste>
+    </fahrzeug>
+    <fahrzeug hersteller="" vorbesitzer="2" modellbezeichnung="Golf"
+        seriennummer="21436587" farbe="Schwarz">
+        <produktionsdatum tag="08" monat="01" jahr="1964"/>
+        <anmerkung>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+eu, pretium quis, sem.</anmerkung>
+        <motor zylinderanzahl="6" brennstoffart="Benzin" hubraum="1200"/>
+        <ausstattungsliste>
+            <ausstattungsoption bezeichnung="Felgen" anzahl="4" einzelpreis="60"/>
+            <ausstattungsoption bezeichnung="Winterreifen" anzahl="4" einzelpreis="45"/>
+        </ausstattungsliste>
+    </fahrzeug>
+</fahrzeugdatenbank>
