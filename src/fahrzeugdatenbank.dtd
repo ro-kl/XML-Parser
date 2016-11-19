@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+DTD von newWaveRacer.xml
+
+Roman Kluth
+
+<!ELEMENT elementname(inhaltsmodell)>
+-->
+
+<!ELEMENT fahrzeugdatenbank (fahrzeug)*>
+<!ELEMENT fahrzeug (ausstattungsliste, motor, anmerkung, produktionsdatum)>
+<!ATTLIST fahrzeug
+	vorbesitzer CDATA #IMPLIED
+	hersteller CDATA #IMPLIED
+	modellbezeichnung CDATA #REQUIRED
+	seriennummer CDATA #REQUIRED
+        farbe CDATA #REQUIRED
+ >
+<!ELEMENT produktionsdatum EMPTY>
+<!ATTLIST produktionsdatum
+	tag CDATA #REQUIRED
+	monat CDATA #REQUIRED
+        jahr CDATA #REQUIRED
+ >
+<!ELEMENT anmerkung (#PCDATA)>
+
+<!ELEMENT motor EMPTY>
+<!ATTLIST motor
+	zylinderanzahl CDATA #REQUIRED
+	brennstoffart CDATA #REQUIRED
+        hubraum CDATA #REQUIRED  
+ >
+<!ELEMENT ausstattungsliste (ausstattungsoption)*>
+<!ELEMENT ausstattungsoption EMPTY>
+<!ATTLIST ausstattungsoption
+	bezeichnung CDATA #REQUIRED
+	anzahl CDATA #REQUIRED
+        einzelpreis CDATA #REQUIRED
+ >
+
